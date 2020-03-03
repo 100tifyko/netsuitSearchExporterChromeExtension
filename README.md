@@ -12,4 +12,4 @@ chrome://extensions/
 3. descomprimir
 4.presionar cargar extension sin empaquetar y dirijirse a la carpeta donde se descomprimio y "seleccionar "carpeta"
 
-para pribar dirijirse a una busqueda guardada en modo edicio, debe aparecer en la esquina superior derecha un link de exportar busqueda
+para probar dirijirse a una busqueda guardada en modo edicio, debe aparecer en la esquina superior derecha un link de exportar busqueda
