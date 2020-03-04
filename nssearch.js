@@ -1,7 +1,7 @@
 try {
 	$.urlParam = function(name){
 	var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-	return results[1] || 0;
+	return results;
 }
 	 if (!isFirefox) {
         var isFirefox = false;
@@ -95,9 +95,6 @@ try {
 						}
 						
 						var type=$.urlParam('searchtype');
-						if (!type){
-						var type = null;
-						}
 						nsapiCheckArgs( [id], ['id'], 'nlapiLoadSearch' );
 //					    if (type)
 //					    {
