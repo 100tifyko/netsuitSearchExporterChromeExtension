@@ -1,7 +1,13 @@
 try {
 	$.urlParam = function(name){
+		var exit="";
 	var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-	return results;
+	if(results){
+		exit=results[1];
+	}else{
+		exit=null;
+	}
+	return exit;
 }
 	 if (!isFirefox) {
         var isFirefox = false;
