@@ -120,8 +120,7 @@ try {
 									'<a id="eportsearchtoscript" href="#">Export as Script Not Supported</a></li>');
 						jQuery('#eportsearchtoscript').click(function(){
 							jQuery('body').append('<div id="searchcode">'+
-								'<p>This search type is not supported by SuiteScript.<br><br>Please refer to this page in SuiteAnswers for more information.</p><br>'+
-								'<a href="https://netsuite.custhelp.com/app/answers/detail/a_id/10242" target="_blank">SuiteScript Supported Records</a>'+
+								'<p>Add &searchtype to the parameters on the url with the value of the search type, for example<br> &searchtype=inventorybalance<br><br>Please refer to the <a href="https://github.com/IngJorgeSalas/netsuitSearchExporterExtension" target="_blank">git</a> for more information.</p><br>'+
 								'</div>');
 							jQuery('#searchcode').dialog({
 								width: 500,
