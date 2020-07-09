@@ -14,4 +14,4 @@ chrome://extensions/
 
 para probar dirijirse a una busqueda guardada en modo edicio, debe aparecer en la esquina superior derecha un link de exportar busqueda, como se muestra en la imagen siguiente.
 
-![GitHub Logo](/ns-saved-search-export.png)  
+![GitHub Logo](/exportScript.PNG.png)  
