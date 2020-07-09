@@ -10,6 +10,6 @@ chrome://extensions/
 2. activar modo desarrollador
 (tipicamente arriba ala derecha)
 3. descomprimir
-4.presionar cargar extension sin empaquetar y dirijirse a la carpeta donde se descomprimio y "seleccionar "carpeta"
+4. presionar cargar extension sin empaquetar y dirijirse a la carpeta donde se descomprimio y "seleccionar "carpeta"
 
 para probar dirijirse a una busqueda guardada en modo edicio, debe aparecer en la esquina superior derecha un link de exportar busqueda
